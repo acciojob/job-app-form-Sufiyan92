@@ -17,36 +17,36 @@
 		<div class="main">
 			<h2>Job App Form</h2>
 			<form action="">
-				<label for="Full Name" id="name">Name</label>
-				<input type="text" name="name"> <br>
+				<label for="Full Name">Name*</label>
+				<input type="text" name="name" id="name" required> <br>
 
-				<label for="Email" id="email">Email</label>
-				<input type="email" name="email"><br>
+				<label for="Email">Email*</label>
+				<input type="email" name="email" id="email" required><br>
 
-				<label for="Gender" id="gender">Gender</label>
-				<input type="radio" name="Gender" value="Male">
+				<label for="Gender">Gender</label>
+				<input type="radio" name="Gender" value="Male" id="gender">
 				<label for="male">Male</label>
-				<input type="radio" name="Gender" value="Female">
+				<input type="radio" name="Gender" value="Female" id="gender">
 				<label for="female">Female</label><br>
 
-				<label for="Laptop Brand">Laptop Brand</label>
-				<select name="latop options" id="Laptop">
+				<label for="Laptop Brand">Laptop Brand*</label>
+				<select name="latop options" id="Laptop" required>
 					<option value="Apple">Apple</option>
 					<option value="Asus">Asus</option>
 					<option value="HP">HP</option>
 				</select><br>
 
-				<label for="age" id="age">Age</label>
-				<input type="number" name="age" value="18"><br>
+				<label for="age">Age*</label>
+				<input type="number" name="age" value="18" id="age" required><br>
 
-				<label for="DOB">DOB</label>
-				<input type="date" name="age"><br>
+				<label for="DOB">DOB*</label>
+				<input type="date" name="age" id="dob" required><br>
 
-				<label for="password">Password</label>
-				<input type="password" name="" id=""><br>
+				<label for="password">Password*</label>
+				<input type="password" name="" id="password" required><br>
 
-				<label for="url">Portfolio URL</label>
-				<input type="url" id="portfolio"><br>
+				<label for="url">Portfolio URL*</label>
+				<input type="url" id="portfolio" required><br>
 
 				<input type="button" value="submit"
 					style="color: white; background-color: rgb(60, 60, 60); padding: 1em; width: 90px; border-radius: 10px;">

@@ -1,9 +1,10 @@
 body {
-    /* margin: 0px;
-    padding: 0px; */
+    margin: 0px;
+    padding: 0px;
     width: 100vw;
     height: 100vh;
-    background-color: white
+    background-color: white;
+    background-image: radial-gradient(white, black);
 }
 
 .main {
@@ -20,6 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .main input {
